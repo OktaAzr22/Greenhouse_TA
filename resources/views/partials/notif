@@ -1,0 +1,254 @@
+<!-- FLOATING NOTIFICATION BUTTON dengan DROPDOWN -->
+<div id="notificationWrapper" class="fixed bottom-6 right-6 z-30">
+  <!-- Tombol notifikasi -->
+  <div id="notificationBtn" class="cursor-pointer transition-all duration-500 transform translate-y-0 opacity-100">
+    <div class="bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full p-4 shadow-lg animate-float relative">
+      <i class="fas fa-bell text-white text-xl"></i>
+      <span class="absolute -top-1 -right-1 w-5 h-5 bg-red-500 rounded-full text-white text-xs flex items-center justify-center font-bold animate-pulse">3</span>
+    </div>
+  </div>
+
+  <!-- Dropdown Notifikasi -->
+  <div id="notificationDropdown" class="absolute bottom-16 right-0 w-80 bg-white rounded-2xl shadow-2xl overflow-hidden hidden">
+    <!-- Header Dropdown -->
+    <div class="bg-gradient-to-r from-emerald-500 to-cyan-500 px-4 py-3">
+      <div class="flex justify-between items-center">
+        <h3 class="text-white font-semibold">Notifikasi</h3>
+        <span class="text-white/80 text-xs">3 baru</span>
+      </div>
+    </div>
+    
+    <!-- List Notifikasi -->
+    <div class="max-h-96 overflow-y-auto divide-y divide-gray-100">
+      <!-- Notifikasi 1 -->
+      <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-green-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Order baru #ORD-006</p>
+            <p class="text-xs text-gray-500 mt-1">Pesanan baru dari John Doe dengan total $1,299</p>
+            <p class="text-xs text-emerald-500 mt-2">5 menit yang lalu</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Notifikasi 2 -->
+      <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-blue-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Update sistem tersedia</p>
+            <p class="text-xs text-gray-500 mt-1">Versi baru 2.4.0 siap diinstall. Update sekarang!</p>
+            <p class="text-xs text-emerald-500 mt-2">1 jam yang lalu</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Notifikasi 3 -->
+      <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-yellow-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Pengingat meeting</p>
+            <p class="text-xs text-gray-500 mt-1">Meeting tim akan dimulai dalam 30 menit</p>
+            <p class="text-xs text-emerald-500 mt-2">2 jam yang lalu</p>
+          </div>
+        </div>
+      </div>
+       <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-yellow-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Pengingat meeting</p>
+            <p class="text-xs text-gray-500 mt-1">Meeting tim akan dimulai dalam 30 menit</p>
+            <p class="text-xs text-emerald-500 mt-2">2 jam yang lalu</p>
+          </div>
+        </div>
+      </div> <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-yellow-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Pengingat meeting</p>
+            <p class="text-xs text-gray-500 mt-1">Meeting tim akan dimulai dalam 30 menit</p>
+            <p class="text-xs text-emerald-500 mt-2">2 jam yang lalu</p>
+          </div>
+        </div>
+      </div> <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-yellow-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Pengingat meeting</p>
+            <p class="text-xs text-gray-500 mt-1">Meeting tim akan dimulai dalam 30 menit</p>
+            <p class="text-xs text-emerald-500 mt-2">2 jam yang lalu</p>
+          </div>
+        </div>
+      </div> <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-yellow-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Pengingat meeting</p>
+            <p class="text-xs text-gray-500 mt-1">Meeting tim akan dimulai dalam 30 menit</p>
+            <p class="text-xs text-emerald-500 mt-2">2 jam yang lalu</p>
+          </div>
+        </div>
+      </div> <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-yellow-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Pengingat meeting</p>
+            <p class="text-xs text-gray-500 mt-1">Meeting tim akan dimulai dalam 30 menit</p>
+            <p class="text-xs text-emerald-500 mt-2">2 jam yang lalu</p>
+          </div>
+        </div>
+      </div> <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer group">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-yellow-500 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-800">Pengingat meeting</p>
+            <p class="text-xs text-gray-500 mt-1">Meeting tim akan dimulai dalam 30 menit</p>
+            <p class="text-xs text-emerald-500 mt-2">2 jam yang lalu</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Notifikasi 4 (lama/baca) -->
+      <div class="px-4 py-3 hover:bg-gray-50 transition-colors cursor-pointer opacity-60">
+        <div class="flex gap-3">
+          <div class="flex-shrink-0 w-2 h-2 mt-2 bg-gray-400 rounded-full"></div>
+          <div class="flex-1">
+            <p class="text-sm font-semibold text-gray-600">Laporan bulanan siap</p>
+            <p class="text-xs text-gray-500 mt-1">Laporan revenue bulan Mei telah tersedia</p>
+            <p class="text-xs text-gray-400 mt-2">Kemarin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Dropdown -->
+    <div class="px-4 py-3 border-t border-gray-100 bg-gray-50">
+      <button class="text-emerald-600 text-sm font-semibold hover:text-emerald-700 w-full text-center">
+        Lihat semua notifikasi →
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Area Chart
+  const ctx = document.getElementById('areaChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+      datasets: [{
+        label: 'Revenue ($)',
+        data: [12500, 15800, 14200, 18900, 22400, 27800],
+        borderColor: 'rgb(16, 185, 129)',
+        backgroundColor: 'rgba(16, 185, 129, 0.1)',
+        borderWidth: 3,
+        fill: true,
+        tension: 0.4,
+        pointBackgroundColor: 'rgb(16, 185, 129)',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2,
+        pointRadius: 4,
+        pointHoverRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: true, position: 'top', labels: { usePointStyle: true, boxWidth: 6 } },
+        tooltip: { callbacks: { label: function(context) { return `Revenue: $${context.raw.toLocaleString()}`; } } }
+      },
+      scales: {
+        y: { beginAtZero: true, ticks: { callback: function(value) { return '$' + value.toLocaleString(); } }, grid: { color: 'rgba(0,0,0,0.05)' } },
+        x: { grid: { display: false } }
+      }
+    }
+  });
+
+  // NOTIFICATION BUTTON dengan DROPDOWN
+  let scrollTimeout;
+  const notificationBtn = document.getElementById('notificationBtn');
+  const notificationDropdown = document.getElementById('notificationDropdown');
+  const notificationWrapper = document.getElementById('notificationWrapper');
+  const mainContent = document.getElementById('mainContent');
+  
+  // Toggle dropdown saat icon diklik
+  notificationBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const isHidden = notificationDropdown.classList.contains('hidden');
+    
+    // Tutup semua dropdown lain jika ada
+    closeAllDropdowns();
+    
+    if (isHidden) {
+      notificationDropdown.classList.remove('hidden');
+      notificationDropdown.classList.add('dropdown-show');
+      // Hapus class animasi setelah selesai
+      setTimeout(() => {
+        notificationDropdown.classList.remove('dropdown-show');
+      }, 200);
+    } else {
+      notificationDropdown.classList.add('hidden');
+    }
+  });
+  
+  // Tutup dropdown saat klik di luar
+  document.addEventListener('click', function(event) {
+    if (!notificationWrapper.contains(event.target)) {
+      notificationDropdown.classList.add('hidden');
+    }
+  });
+  
+  function closeAllDropdowns() {
+    notificationDropdown.classList.add('hidden');
+  }
+  
+  // Fungsi untuk hide/show notifikasi saat scroll
+  function hideNotification() {
+    if (notificationBtn) {
+      notificationBtn.classList.add('translate-y-20', 'opacity-0');
+      notificationBtn.classList.remove('translate-y-0', 'opacity-100');
+      // Tutup dropdown juga saat scroll
+      notificationDropdown.classList.add('hidden');
+    }
+  }
+  
+  function showNotification() {
+    if (notificationBtn) {
+      notificationBtn.classList.remove('translate-y-20', 'opacity-0');
+      notificationBtn.classList.add('translate-y-0', 'opacity-100');
+    }
+  }
+  
+  // Event listener untuk scroll
+  if (mainContent) {
+    mainContent.addEventListener('scroll', function() {
+      hideNotification();
+      
+      if (scrollTimeout) clearTimeout(scrollTimeout);
+      
+      scrollTimeout = setTimeout(function() {
+        showNotification();
+      }, 300);
+    });
+  }
+  
+  // Klik item notifikasi
+  document.querySelectorAll('#notificationDropdown .cursor-pointer').forEach(item => {
+    item.addEventListener('click', function() {
+      console.log('Notifikasi diklik:', this);
+      notificationDropdown.classList.add('hidden');
+      // Di sini bisa tambahkan logic untuk redirect atau aksi lain
+    });
+  });
+  
+  // Klik "Lihat semua notifikasi"
+  document.querySelector('#notificationDropdown button').addEventListener('click', function() {
+    alert('Membuka halaman semua notifikasi...');
+    notificationDropdown.classList.add('hidden');
+  });
+</script>
